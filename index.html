@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>影武者詞殺</title><link rel="stylesheet" href="styles.css"></head><body><main><p class="eyebrow">桌遊</p><h1>影武者詞殺</h1><p>同詞者藏身，異詞者潛伏。描述，但別說破。</p>
 <section class="panel"><label>人數 <select id="count"><option>4</option><option>5</option><option>6</option></select></label><button id="start">分配身分</button></section>
 <section class="secret"><small>你的密詞</small><strong id="word">••••</strong><button id="peek">按住查看</button></section>
-<p id="status" role="status">準備開局</p><section id="players" class="players"></section>
+<p id="status" role="status">準備開局</p><section id="players" class="players" aria-label="玩家狀態" aria-live="polite"></section>
 <button id="next" class="primary" disabled>描述完畢</button><details><summary>怎麼玩</summary><p>依序描述密詞，所有人說完後投票。找出唯一影武者則平民勝；影武者人數追平平民則影武者勝。</p></details>
 </main><script type="module" src="app.js"></script></body></html>
